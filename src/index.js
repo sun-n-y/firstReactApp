@@ -25,10 +25,7 @@ const Book = () => {
 };
 
 const Image = () => (
-  <img
-    src="https://images-na.ssl-images-amazon.com/images/I/91ke43dIxkL._AC_UL600_SR600,400_.jpg"
-    alt="Iron Flame (The Empyrean, 2)"
-  />
+  <img src="./images/book.jpg" alt="Iron Flame (The Empyrean, 2)" />
 );
 const Title = () => <h2>Iron Flame (The Empyrean, 2)</h2>;
 const Author = () => {
