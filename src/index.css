@@ -64,3 +64,9 @@ body {
     background-color: orangered;
     color: white;
 }
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 3rem;
+}
