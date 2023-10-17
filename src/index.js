@@ -14,27 +14,17 @@ const BookList = () => {
   );
 };
 
+// book component
 const Book = () => {
+  const title = 'Outlive';
+  const author = 'Petter Attia';
   return (
     <article className="book">
-      <Image />
-      <Title />
-      <Author />
+      <img src="./images/book.jpg" alt={title} />
+      <h2>{title}</h2>
+      <h4>{author.toUpperCase()}</h4>
     </article>
   );
-};
-
-const Image = () => (
-  <img src="./images/book.jpg" alt="Iron Flame (The Empyrean, 2)" />
-);
-const Title = () => <h2>Iron Flame (The Empyrean, 2)</h2>;
-const Author = () => {
-  const inlineHeadingStyles = {
-    color: '#617d98',
-    fontSize: '0.75rem',
-    marginTop: '.5rem',
-  };
-  return <h4 style={inlineHeadingStyles}>Rebecca Yarros</h4>;
 };
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
