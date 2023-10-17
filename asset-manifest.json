@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/firstReactApp/static/css/main.b6ff63e5.css",
+    "main.js": "/firstReactApp/static/js/main.fab38ebd.js",
+    "static/media/book1.jpg": "/firstReactApp/static/media/book1.75184819c2c25e884141.jpg",
+    "static/media/book3.jpg": "/firstReactApp/static/media/book3.ce5aee32eb6af3e0e697.jpg",
+    "static/media/book2.jpg": "/firstReactApp/static/media/book2.5004e05a2962ac503592.jpg",
+    "index.html": "/firstReactApp/index.html",
+    "main.b6ff63e5.css.map": "/firstReactApp/static/css/main.b6ff63e5.css.map",
+    "main.fab38ebd.js.map": "/firstReactApp/static/js/main.fab38ebd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6ff63e5.css",
+    "static/js/main.fab38ebd.js"
+  ]
+}
